@@ -167,7 +167,7 @@ dados_estudo = pd.read_parquet('./dados_estudo.parquet')
 
 # Titulo - subtitulo
 st.set_page_config( 
-    page_title='Data Viking',
+    page_title='Takahashi Analytics',
     page_icon='📊',
     layout='wide'
 )
@@ -186,10 +186,10 @@ with st.sidebar:
         'Menu',
 
         # opções de navegação
-        ['Dashboard', 'Tatico', 'Operacional'],
+        ['Dashboard'],
 
         # Icones para o menu das opções
-        icons=['bar-chart-fill', 'bar-chart-fill', 'bar-chart-fill'],
+        icons=['bar-chart-fill'],
 
         # icone do menu principal
         menu_icon='cast',
@@ -285,7 +285,7 @@ if selected == 'Dashboard':
         unsafe_allow_html=True
     )
 
-
+'''
 elif selected == 'Tatico':
     pass
 
@@ -294,3 +294,4 @@ elif selected == 'Operacional':
 
 else:
     pass
+'''
