@@ -279,19 +279,8 @@ if selected == 'Dashboard':
         '''
             <hr style='border: 1px solid #d3d3d3;'/>
             <p style='text-align: center; color: gray;'>
-                Dashboard de Custo de Energia | Dados fornecidos por Enefit | Desenvolvido por Odemir Depieri Jr | © 2024
+                Dashboard de Custo de Energia | Dados fornecidos por Enefit | Desenvolvido por Marcelo Takahashi | © 2024
             </p>
         ''',
         unsafe_allow_html=True
     )
-
-'''
-elif selected == 'Tatico':
-    pass
-
-elif selected == 'Operacional':
-    pass
-
-else:
-    pass
-'''
